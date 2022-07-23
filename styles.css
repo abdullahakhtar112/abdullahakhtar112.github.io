@@ -1,0 +1,197 @@
+/* 
+HTML elements
+*/
+
+h2{
+    color: white;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+sup{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: #8f8f8f;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+h3{
+    font-family: 'Ubuntu' , sans-serif;
+    font-weight: bolder;
+}
+a:hover{
+    color: white;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+}
+body{
+    margin: 0;
+    font-family: 'Monserrat',sans-serif;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+
+/*
+Classes
+*/
+
+
+.dogprofile{
+    height: 20%;
+    width:20%;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 5%;
+}
+
+.testimonial-image{
+    width:20%;
+    height:20%;
+    border-radius: 50%;
+}
+.pressimages{
+    width: 10%;
+    height: 10%;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+.btn1{
+    text-decoration: none;
+    color: white !important;
+}
+.btn{
+    font-family: 'Ubuntu' ,sans-serif;
+    font-weight: bold;
+}
+.buttons{
+    font-family: 'Ubuntu' , sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.footer{
+    text-align: center;
+    padding: 4%;
+}
+.middle{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: black;
+}
+
+.icon{
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+.icons{
+    padding: 5%;
+}
+
+.image{
+    width: 60%;
+    transform:rotate(22deg);
+    position: relative;
+    z-index: 2;
+}
+
+
+.nav-link{
+    font-family: 'Ubuntu' , sans-serif;
+    font-size: large;
+}
+
+
+.navbar-brand{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 40px;
+}
+
+
+
+.container-fluid{
+   padding-left: 13%;
+   padding-right: 12%;
+   padding-top: 3%;
+   padding-bottom: 3%;
+}
+
+
+/* 
+IDs 
+*/
+
+
+#pricing{
+    text-align: center;
+    padding: 5%;
+}
+
+#testimonials{
+    padding: 7%;
+    background-color: #ef8172;
+    text-align: center;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-top: 7%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 7%;
+
+}
+
+#features{
+    padding: 13% 8%;
+    position: relative;
+}
+
+
+#cta{
+    background-color: #ff4c68;
+}
+
+#an{
+    font-weight: bold;
+}
+
+
+
+/* 
+Media Queries
+*/
+
+
+@media (max-width:1028px)
+{
+    .image{
+        position: static;
+        margin-top: 6%;
+        transform: rotate(0);
+align-self: center;       
+    }
+    
+    #title{
+        text-align: center;
+    }
+}
